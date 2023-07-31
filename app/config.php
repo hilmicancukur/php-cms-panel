@@ -1,12 +1,12 @@
 <?php
 
 define("PATH", realpath('.'));
-const SUBFOLDER = true;
-const URL = 'http://localhost/udemy-cms';
+const SUBFOLDER = false;
+const URL = 'http://localhost/';
 
 return [
     'db' => [
-        'name'=>'udemy_cms',
+        'name'=>'cms',
         'host'=>'localhost',
         'user'=>'root',
         'pass'=>''

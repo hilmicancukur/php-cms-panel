@@ -8,8 +8,10 @@ $route = array_values($route);
 if (SUBFOLDER == true){
     array_shift($route);
 }
+print_r($route);
 
 if (!route(0)){
+    print_r('here');
     $route[0] = 'index';
 }
 
